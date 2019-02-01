@@ -1,7 +1,8 @@
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
+A,B,C,D =input().split()
+A=int(A)
+B=int(B)
+C=int(C)
+D=int(D)
 greater=C+D
 smaller=A+B
 even=A%2
